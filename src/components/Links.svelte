@@ -1,9 +1,9 @@
 <script>
   const links = [
-    {name: "Instagram", url: "/", classIcon: "fab fa-instagram"},
-    {name: "Linkedin", url: "/", classIcon: "fab fa-linkedin"},
-    {name: "Github", url: "/", classIcon: "fab fa-github"},
-    {name: "Spotify", url: "/", classIcon: "fab fa-spotify"}
+    {name: "Linkedin", url: "https://www.linkedin.com/in/ernane", classIcon: "fab fa-linkedin"},
+    {name: "Codepen", url: "https://codepen.io/ernanej", classIcon: "fab fa-codepen"},
+    {name: "Spotify", url: "https://open.spotify.com/user/22zlrh2ifrpdvah4gfrlllpdi?si=a8b0723bb1f04cf6", classIcon: "fab fa-spotify"},
+    {name: "Lattes", url: "http://lattes.cnpq.br/0903220832384620", classIcon: "fas fa-address-card"},
   ]
 </script>
 
@@ -11,7 +11,7 @@
   <div class="main-content">
     {#each links as link}
       <a href="{link.url}" class="link">
-        <i class="{link.classIcon}" ></i>
+        <i class="{link.classIcon} im" ></i>
         {link.name}
       </a>
     {/each}
@@ -20,7 +20,7 @@
 
 <style>
   .content {
-    padding: 50px 30px 20px;
+    padding: 0 30px;
     width: 100%;
     color: #1C1C1C;
     overflow: hidden;
@@ -28,10 +28,11 @@
   }
   .link{
     margin: 15px auto;
+    padding: 0 20px;
     width: 100%;
     height: 45px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 1px solid #bcbcbc;
     border-radius: 16px;

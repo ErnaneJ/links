@@ -6,15 +6,21 @@
 </main>
 
 <style>
-  main{min-width: 100vw;max-width: 100vw;min-height: 100vh;max-height: 100vh;display:flex;justify-content:center;}
-  #container{min-height: 100%;min-width: 100%;
-    margin: auto;
-  width: 500px;
-  height: calc(100vh - 20px);
-  margin: 20px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fff;
+  main{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    /* box-shadow: inset 0 0 20px rgba(255, 255, 255, .8); */
   }
 </style>

@@ -22,3 +22,7 @@ body {
   margin: 0px 10px 0px 10px;
   color:#191970;
 }
+.im{margin-right: 5px;}
+
+@media (max-width: 768px){#container{min-width: 100vw;}}
+@media (min-width: 768px){#container{max-width: 450px;}}

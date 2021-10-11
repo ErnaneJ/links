@@ -1,7 +1,7 @@
 <section id="profile">
-  <img class="profile" src="./images/profile.png" alt="profile"/>
-  <h2>Ernane Ferreira</h2>
-  <p class="subtitle">Programador</p>
+  <img src="./images/profile.png" alt="profile"/>
+  <h1>Ernane Ferreira</h1>
+  <p class="subtitle"><i class="fas fa-code im"></i>Programador</p>
 </section>
 
 <style>
@@ -11,25 +11,20 @@
     justify-content:center;
     flex-direction: column;
     padding: 10px;
-
-    width: 104px;
-  margin-bottom: 20px;
-  height: 104px;
-  border-radius: 50%;
-  object-fit: cover;
-  z-index: 99;
-  border:2px solid white;
+    margin-top: 20px;
   }
   #profile img{
     border-radius: 50%;
     width: 8em;
+    margin-bottom: 15px;
   }
-  #profile h2 {
+  #profile h1 {
     margin: 0;
-    font-size: 18px;
+    font-size: 1rem;
+    margin: 0;
   }
   #profile .subtitle {
-    font-size: 14px;
+    font-size: .7rem;
     color: #e3e3e3;
   }
 </style>

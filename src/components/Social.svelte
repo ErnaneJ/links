@@ -16,30 +16,29 @@
 
 <style>
   #social {
-  display: flex;
-  height: 65px;
-  width: 223px;
-  justify-content: space-around;
-  align-items: center;
-  background: rgba(200, 200, 255, 0.3);
-  border-radius: 50px;
-  position: absolute;
-  top: -32px;
-  left: calc(50% - 111px);
-}
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 210px;
+    background: rgba(66, 66, 112, 0.3);
+    border-radius: 50px;
+    transform: translateY(-50%);
+  }
 
-#social a {
-  background: #eee;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  #social a {
+    background: #eee;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
 
-#social i {
-  color: #2525DD;
-  cursor:pointer;
-}
+  #social i {
+    color: rgb(32, 32, 78);
+    cursor:pointer;
+  }
 </style>
