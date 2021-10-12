@@ -8,7 +8,7 @@
 
 <div id="social">
   {#each socials as social}
-    <a href="{social.url}">
+    <a href="{social.url}" target="_blank">
       <i class="{social.classIcon}"></i>
     </a>
   {/each}
@@ -24,6 +24,10 @@
     background: rgba(66, 66, 112, 0.3);
     border-radius: 50px;
     transform: translateY(-50%);
+
+    -webkit-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
+    -moz-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
+    box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
   }
 
   #social a {
@@ -35,6 +39,11 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    transition:.3s;
+  }
+
+  #social a:hover{
+    transform: translateY(-5px);
   }
 
   #social i {

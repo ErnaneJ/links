@@ -6,7 +6,6 @@
 <section id="info">
   <Social></Social>
   <Links></Links>
-  <slot></slot>
 </section>
 
 <style>

@@ -17,6 +17,8 @@
     border-radius: 50%;
     width: 8em;
     margin-bottom: 15px;
+    
+    border: 2px solid rgb(161, 165, 218);
   }
   #profile h1 {
     margin: 0;

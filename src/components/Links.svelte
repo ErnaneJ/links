@@ -10,9 +10,12 @@
 <div class="content">
   <div class="main-content">
     {#each links as link}
-      <a href="{link.url}" class="link">
-        <i class="{link.classIcon} im" ></i>
-        {link.name}
+      <a href="{link.url}" target="_blank" class="link">
+        <span>
+          <i class="{link.classIcon} im" ></i>
+          {link.name}
+        </span>
+        <i id="arrow" class="fas fa-arrow-circle-right"></i>
       </a>
     {/each}
  </div>
@@ -32,7 +35,7 @@
     width: 100%;
     height: 45px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid #bcbcbc;
     border-radius: 16px;
@@ -42,5 +45,41 @@
     -webkit-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
     -moz-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
     box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
+    position:relative;
+    transition: .3s;
+    overflow: hidden;
+  }
+  .link:hover{
+    transform: translateY(-5px);
+  }
+  #arrow{
+    transform: translateX(200px);
+    transition: .3s;
+    animation: arrowOut .3s normal forwards ease-in-out;
+  }
+  .link:hover #arrow{
+    animation: arrowIn .3s normal forwards ease-in-out;
+  }
+  @keyframes arrowIn{
+    0%{
+      transform: translateX(200px);
+    }
+    50%{
+      transform: translateX(-10px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+  @keyframes arrowOut{
+    0%{
+      transform: translateX(0px);
+    }
+    50%{
+      transform: translateX(-10px);
+    }
+    100%{
+      transform: translateX(200px);
+    }
   }
 </style>

@@ -12,6 +12,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    overflow: hidden;
   }
   #container{
     display: flex;
@@ -21,6 +22,7 @@
     width:100%;
     height: 100%;
     color: #fff;
-    /* box-shadow: inset 0 0 20px rgba(255, 255, 255, .8); */
+    z-index: 999999;
+    
   }
 </style>

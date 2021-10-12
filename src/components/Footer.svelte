@@ -1,5 +1,9 @@
+<script>
+  export let name;
+</script>
+
 <footer>
-  <p>Desenvolvido com  <i class="fas fa-heart"></i> por Ernane Ferreira</p>
+  <p>Desenvolvido com  <i class="fas fa-heart"></i> por {name}</p>
 </footer>
 
 <style>
