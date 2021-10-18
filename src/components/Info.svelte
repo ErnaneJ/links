@@ -1,11 +1,13 @@
 <script>
-	import Social from './Social.svelte'
-	import Links from './Links.svelte'
+	import Social from './Social.svelte';
+	import Links from './Links.svelte';
+  import ReposGithub from './ReposGithub.svelte';
 </script>
 
 <section id="info">
-  <Social></Social>
-  <Links></Links>
+  <Social/>
+  <Links/>
+  <ReposGithub/>
 </section>
 
 <style>

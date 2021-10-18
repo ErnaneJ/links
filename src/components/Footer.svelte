@@ -7,7 +7,7 @@
 </footer>
 
 <style>
-  footer{width: 100%;position:absolute; bottom: 0;margin-bottom: 10px;}
+  footer{width: 100%;position:absolute; bottom: 0;}
   footer p {color: rgb(56, 56, 56); font-size: 12px;text-align: center;}
   footer p i {color:#e22929;}
 </style>

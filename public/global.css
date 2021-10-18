@@ -23,6 +23,10 @@ body {
   color:#191970;
 }
 .im{margin-right: 5px;}
-
+.left { left:5px !important; transform: translateX(-5px);}
+.right { right: 5px !important; transform: translateX(5px);}
+.left, .right {cursor: pointer; transition: all ease .3s;}
+.left:hover {transform: translateX(-10px);}
+.right:hover {transform: translateX(10px);}
 @media (max-width: 768px){#container{min-width: 100vw;}}
 @media (min-width: 768px){#container{max-width: 450px;}}
