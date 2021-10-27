@@ -2,31 +2,23 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 *{padding:0;margin:0;box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
-p {
-  margin: 5px 0;
-}
 
-li {
-  list-style: none;
-}
+body {background:radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);font-family: "Nunito", sans-serif;display: flex;justify-content: center;position: relative;}
 
-body {
-  background:radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);
-  font-family: "Nunito", sans-serif;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
+::-webkit-scrollbar-track {background-color: rgba(0,0,0,0.5);}
+::-webkit-scrollbar {width: 6px;background-color: rgba(0,0,0,0.5);}
+::-webkit-scrollbar-thumb {background-color:  rgba(0,0,0,0.5);}
 
-.icons{
-  margin: 0px 10px 0px 10px;
-  color:#191970;
-}
+p {margin: 5px 0;}
+li {list-style: none;}
+
+.icons{margin: 0px 10px 0px 10px;color:#191970;}
 .im{margin-right: 5px;}
 .left { left:5px !important; transform: translateX(-5px);}
 .right { right: 5px !important; transform: translateX(5px);}
 .left, .right {cursor: pointer; transition: all ease .3s;}
 .left:hover {transform: translateX(-10px);}
 .right:hover {transform: translateX(10px);}
+
 @media (max-width: 768px){#container{min-width: 100vw;}}
 @media (min-width: 768px){#container{max-width: 450px;}}

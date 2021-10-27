@@ -8,6 +8,7 @@
   <Social/>
   <Links/>
   <ReposGithub/>
+  <slot/>
 </section>
 
 <style>

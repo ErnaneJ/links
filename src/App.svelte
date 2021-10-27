@@ -11,6 +11,7 @@
 <Particles></Particles>
 <Container>
 	<Profile></Profile>
-	<Info></Info>
-	<Footer {name}></Footer>
+	<Info>
+		<Footer {name}></Footer>
+	</Info>
 </Container>

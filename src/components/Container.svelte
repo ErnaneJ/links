@@ -23,6 +23,6 @@
     height: 100%;
     color: #fff;
     z-index: 999999;
-    
+    overflow-y: auto;
   }
 </style>
