@@ -3,7 +3,7 @@
 
 *{padding:0;margin:0;box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
 
-body {background:radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);font-family: "Nunito", sans-serif;display: flex;justify-content: center;position: relative;}
+body {background:radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);padding-left: 4px;font-family: "Nunito", sans-serif;display: flex;justify-content: center;position: relative;}
 
 ::-webkit-scrollbar-track {background-color: rgba(0,0,0,0.5);}
 ::-webkit-scrollbar {width: 6px;background-color: rgba(0,0,0,0.5);}
