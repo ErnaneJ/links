@@ -26,7 +26,7 @@
     margin: 0;
   }
   #profile .subtitle {
-    font-size: .7rem;
+    font-size: .8rem;
     color: #e3e3e3;
   }
 </style>

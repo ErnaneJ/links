@@ -14,7 +14,7 @@
 </script>
 
 {#if repos.length > 0}
-<h1><i class="fas fa-laptop-code"></i> Veja alguns dos meus projetos!</h1>
+<h3><i class="fas fa-laptop-code"></i> Veja alguns dos meus projetos!</h3>
 
 <Carousel 
   bind:this={carousel}
@@ -38,7 +38,7 @@
 {/if}
 
 <style>
-  h1{    
+  h3{    
     color: #1C1C1C;
     width: 100%;
     margin: 0;
@@ -46,5 +46,6 @@
     padding: 0 30px;
     margin-bottom: -10px;
     font-size: 15px;
+    text-align: center;
   }
 </style>
