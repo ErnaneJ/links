@@ -1,15 +1,22 @@
 <script>
+  import { fly } from 'svelte/transition';
 	import Social from './Social.svelte';
 	import Links from './Links.svelte';
-  import ReposGithub from './ReposGithub.svelte';
+  import Footer from './Footer.svelte';
+
+  let showAnimation = false;
+  setTimeout(() => showAnimation = true, 0);
 </script>
 
-<section id="info">
-  <Social/>
-  <Links/>
-  <ReposGithub/>
-  <slot/>
-</section>
+{#key showAnimation}
+  <section id="info" in:fly="{{ y: 1000, duration: 1000 }}">
+    <div class="content" in:fly="{{ y: 200, duration: 600, delay: 600 }}">
+      <Social/>
+      <Links/>
+    </div>
+    <Footer/>
+  </section>
+{/key}
 
 <style>
   #info {
@@ -23,6 +30,14 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+  }
+  .content{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
+    height: 100%;
   }
 </style>

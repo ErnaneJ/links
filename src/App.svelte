@@ -1,17 +1,14 @@
 <script>
-	import Particles from './components/Particles.svelte'
-	import Container from './components/Container.svelte'
-	import Profile from './components/Profile.svelte'
-	import Info from './components/Info.svelte'
-	import Footer from './components/Footer.svelte'
+	import Particles from './components/Particles.svelte';
+	import Container from './components/Container.svelte';
+	import Profile from './components/Profile.svelte';
+	import Info from './components/Info.svelte';
 
-	export let name;
+	setTimeout(() => document.querySelector('body').classList.remove("ovf-h"), 1800);
 </script>
 
 <Particles></Particles>
 <Container>
 	<Profile></Profile>
-	<Info>
-		<Footer {name}></Footer>
-	</Info>
+	<Info/>
 </Container>

@@ -21,13 +21,12 @@
     align-items: center;
     height: 50px;
     width: 210px;
-    background: rgba(66, 66, 112, 0.3);
+    background: rgba(55, 62, 97, 0.5);
     border-radius: 50px;
     transform: translateY(-50%);
-
-    -webkit-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
-    -moz-box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
-    box-shadow: 4px 4px 18px -5px rgba(100, 100, 200, 0.72);
+    -webkit-box-shadow: 4px 4px 18px -5px #2D3769;
+    -moz-box-shadow: 4px 4px 18px -5px #2D3769;
+    box-shadow: 4px 4px 18px -5px #2D3769;
   }
 
   #social a {

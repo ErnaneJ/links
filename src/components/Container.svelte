@@ -12,19 +12,18 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    overflow: hidden;
+    
   }
   #container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     width:100%;
     height: 100%;
     color: #fff;
     z-index: 999999;
-    margin-left: 4px;
-    overflow: hidden;
-    overflow-y: auto;
+    
   }
 </style>

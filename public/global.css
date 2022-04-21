@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 
-*{padding:0;margin:0;box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+*{padding:0;margin:0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
 
-body {background:radial-gradient(ellipse at bottom, #1b2735 50%, #090a0f 100%);font-family: "Nunito", sans-serif;display: flex;justify-content: center;position: relative;}
+body {background-color: #7f5a83;background-image: linear-gradient(315deg, #7f5a83 30%, #0d324d 80%);display: flex;justify-content: center;position: relative;}
 
 ::-webkit-scrollbar {width: 6px;}
 
@@ -11,12 +11,12 @@ p {margin: 5px 0;}
 li {list-style: none;}
 
 .icons{margin: 0px 10px 0px 10px;color:#191970;}
-.im{margin-right: 5px;}
 .left { left:5px !important; transform: translateX(-5px);}
 .right { right: 5px !important; transform: translateX(5px);}
 .left, .right {cursor: pointer; transition: all ease .3s;}
 .left:hover {transform: translateX(-10px);}
 .right:hover {transform: translateX(10px);}
+.ovf-h{overflow: hidden}
 
-@media (max-width: 768px){#container{min-width: 100vw;}}
-@media (min-width: 768px){#container{max-width: 450px;}}
+@media (max-width: 500px){#container{min-width: 100vw;}}
+@media (min-width: 500px){#container{max-width: 450px;}}
