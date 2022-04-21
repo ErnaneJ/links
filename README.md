@@ -37,6 +37,5 @@ Acesse [localhost:5000](http://localhost:5000).
 ---
 
 <div align="center">
-  <img src="./.github/logoedev.png" width="150"><br>
   Desenvolvido com ❤ por <a target="_blank" href="https://links.ernane.dev">Ernane Ferreira</a> 👋🏻
 </div>
